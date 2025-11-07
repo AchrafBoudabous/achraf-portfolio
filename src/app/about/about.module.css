@@ -1,0 +1,464 @@
+.main {
+  min-height: 100vh;
+  background: var(--light-bg);
+}
+
+.hero {
+  background: var(--gradient-primary);
+  color: white;
+  padding: 6rem 2rem 4rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  animation: fadeInUp 0.6s ease;
+  color: white;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  opacity: 0.9;
+  animation: fadeInUp 0.6s ease 0.2s backwards;
+  color: white;
+}
+
+.bioSection {
+  padding: 4rem 2rem;
+  background: var(--light-bg);
+}
+
+.bioContent h2 {
+  font-size: 2rem;
+  color: var(--azure-blue);
+  margin-bottom: 1.5rem;
+}
+
+.bioContent p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.skillsSection {
+  padding: 4rem 2rem;
+  background: var(--section-bg);
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  color: var(--text-primary);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.skillCategory {
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid var(--border-color);
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skillCategory:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.skillCategory h3 {
+  font-size: 1.25rem;
+  color: var(--azure-blue);
+  margin-bottom: 1rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.skillTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  flex-grow: 1;
+  align-content: flex-start;
+}
+
+.skillTags span {
+  background: var(--tech-bg);
+  color: var(--text-primary);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  height: fit-content;
+}
+
+.skillTags span:hover {
+  background: var(--azure-blue);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.softSkillsSection {
+  padding: 4rem 2rem;
+  background: var(--light-bg);
+}
+
+.softSkillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.softSkill {
+  text-align: center;
+  padding: 1.5rem;
+  background: var(--section-bg);
+  border-radius: 0.75rem;
+  transition: transform 0.3s ease;
+  border: 1px solid var(--border-color);
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.softSkill:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+.icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.softSkill h3 {
+  font-size: 1rem;
+  color: var(--text-primary);
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.certificatesSection {
+  padding: 4rem 2rem;
+  background: var(--section-bg);
+}
+
+.certificatesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.certificate {
+  background: var(--card-bg);
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  border-left: 4px solid var(--azure-blue);
+  box-shadow: var(--shadow);
+  font-weight: 500;
+  color: var(--text-primary);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.certificate:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.languagesSection {
+  padding: 4rem 2rem;
+  background: var(--light-bg);
+}
+
+.languagesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.language {
+  text-align: center;
+  padding: 2rem;
+  background: var(--section-bg);
+  border-radius: 0.75rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid var(--border-color);
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.language:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.language h3 {
+  font-size: 1.5rem;
+  color: var(--azure-blue);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.language p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.interestsSection {
+  padding: 4rem 2rem;
+  background: var(--gradient-primary);
+  color: white;
+}
+
+.interestsSection .sectionTitle {
+  color: white;
+}
+
+.interestsContent {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.interestsContent p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  opacity: 0.95;
+  color: white;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.125rem;
+  }
+  
+  .skillsGrid,
+  .softSkillsGrid,
+  .certificatesGrid,
+  .languagesGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .bioContent p {
+    font-size: 1rem;
+  }
+  
+  .sectionTitle {
+    font-size: 1.75rem;
+  }
+  
+  .skillCategory {
+    min-height: auto;
+  }
+  
+  .certificate {
+    min-height: auto;
+  }
+  
+  .softSkill {
+    min-height: auto;
+  }
+  
+  .language {
+    min-height: auto;
+  }
+}
+
+.educationSection,
+.experienceSection {
+  padding: 4rem 2rem;
+  background: var(--light-bg);
+}
+
+.experienceSection {
+  background: var(--section-bg);
+}
+
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 2rem auto 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--border-color);
+}
+
+.timelineItem {
+  position: relative;
+  padding-left: 60px;
+  margin-bottom: 3rem;
+}
+
+.timelineItem:last-child {
+  margin-bottom: 0;
+}
+
+.timelineDot {
+  position: absolute;
+  left: 12px;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--azure-blue);
+  border: 3px solid var(--light-bg);
+  box-shadow: 0 0 0 2px var(--azure-blue);
+}
+
+.timelineContent {
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timelineContent:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.timelineHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.timelineHeader h3 {
+  font-size: 1.25rem;
+  color: var(--text-primary);
+  margin: 0;
+  font-weight: 600;
+}
+
+.timelinePeriod {
+  font-size: 0.875rem;
+  color: var(--azure-blue);
+  font-weight: 600;
+  white-space: nowrap;
+  padding: 0.25rem 0.75rem;
+  background: var(--tech-bg);
+  border-radius: 1rem;
+}
+
+.institution {
+  font-size: 1rem;
+  color: var(--azure-blue);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.description {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.responsibilities {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.responsibilities li {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.responsibilities li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--azure-blue);
+  font-weight: bold;
+}
+
+.responsibilities li:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 10px;
+  }
+  
+  .timelineItem {
+    padding-left: 40px;
+  }
+  
+  .timelineDot {
+    left: 2px;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .timelineHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .timelineHeader h3 {
+    font-size: 1.125rem;
+  }
+  
+  .timelineContent {
+    padding: 1.25rem;
+  }
+}
