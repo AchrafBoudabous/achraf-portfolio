@@ -75,24 +75,34 @@
 
 .cardHeader {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
   margin-bottom: 1rem;
+  flex-wrap: wrap;    
 }
 
 .category {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   background: var(--gradient-primary);
   color: white;
-  padding: 0.4rem 1rem;
-  border-radius: 2rem;
-  font-size: 0.875rem;
+  padding: .35rem .9rem;
+  border-radius: 999px;
+  font-size: .85rem;
   font-weight: 600;
+  line-height: 1;            
+  max-width: 100%;          
+  white-space: nowrap;        
+  overflow: hidden;           
+  text-overflow: ellipsis;
 }
 
 .readTime {
-  font-size: 0.875rem;
+  font-size: .875rem;
   color: var(--text-secondary);
+  white-space: nowrap;        
+  flex-shrink: 0;            
 }
 
 .postTitle {
@@ -175,4 +185,16 @@
 .postBody ol, .postBody ul {
   padding-left: 1.25rem;
   margin: 0.5rem 0 1rem;
+}
+
+@media (max-width: 480px) {
+  .cardHeader {
+    flex-direction: column;     
+    align-items: flex-start;
+    gap: .5rem;
+  }
+  .category {
+    font-size: .8rem;
+    padding: .3rem .75rem;
+  }
 }

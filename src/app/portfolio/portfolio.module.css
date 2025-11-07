@@ -159,7 +159,6 @@
   box-shadow: 0 4px 8px rgba(0, 120, 215, 0.3);
 }
 
-/* Floating Contact Card */
 .floatingCard {
   position: fixed;
   bottom: 2rem;
