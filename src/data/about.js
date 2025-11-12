@@ -5,10 +5,11 @@ export const about = {
   },
 
   bio: [
-    "I am Achraf Boudabous, a 25-year-old software engineer from Tunisia currently based in Germany. I hold a Bachelor degree in Software Engineering from the University of Bahrain, and I am pursuing a Master in Global Software Development at Fulda University of Applied Sciences.",
-    "I enjoy turning ideas into practical solutions and have gained experience across all stages of software development from initial concept to deployment. My work has involved a wide range of programming languages, frameworks, and tools.",
-    "I also have a strong interest in low-code platforms and artificial intelligence, which I use to build smart and user-focused applications more efficiently. I am adaptable, curious, and motivated by problem-solving, and I thrive in collaborative environments where I can contribute and continue learning.",
-  ],
+  "My name is Achraf Boudabous, a 25-year-old software engineer from Tunisia currently living in Germany. I earned my Bachelor's degree in Software Engineering from the University of Bahrain and am now pursuing a Master's in Global Software Development at Fulda University of Applied Sciences.",
+  "I’m passionate about transforming innovative ideas into real-world digital solutions. Throughout my journey, I’ve gained hands-on experience in multiple areas of software engineering, from backend logic and API design to frontend interfaces and cloud deployment.",
+  "Working and studying across Tunisia, Bahrain, and Germany has shaped me into a globally minded engineer who values collaboration and continuous learning. My main interests lie in AI automation, low-code platforms, and modern web technologies, which I use to create efficient, scalable, and user-friendly applications that make everyday tasks smarter and simpler.",
+],
+
 
   experience: [
     {

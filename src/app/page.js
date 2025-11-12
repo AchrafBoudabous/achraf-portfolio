@@ -77,19 +77,27 @@ export default function Home() {
       </section>
 
       <section className={styles.intro}>
-        <div className={styles.container}>
-          <h3>About Me</h3>
-          <p>
-            I am a Tunisian software engineer based in Germany, currently pursuing a Master in Global Software Development 
-            at Fulda University of Applied Sciences. I specialize in AI-driven automation, low-code development, and full-stack 
-            solutions, combining technical depth with creativity to deliver scalable, user-focused applications.
-          </p>
-          <p>
-            My work spans across Microsoft Power Platform, Azure cloud services, and modern web technologies. 
-            I am passionate about building solutions that automate workflows, enhance productivity, and solve real-world business challenges.
-          </p>
-        </div>
-      </section>
+  <div className={styles.container}>
+    <h3>About Me</h3>
+    <p>
+      I am a Tunisian software engineer based in Germany, currently pursuing a Master in Global Software Development
+      at Fulda University of Applied Sciences. My work bridges AI-driven automation, low-code development, and full-stack
+      engineering, combining technical depth with creativity to design intelligent, scalable, and user-centric solutions.
+    </p>
+    <p>
+      Having lived and worked across Tunisia, Bahrain, and Germany, I bring a global perspective to software development and
+      problem-solving. This international experience has strengthened my ability to collaborate across cultures, adapt to
+      diverse technical ecosystems, and deliver solutions that align with both business and user needs.
+    </p>
+    <p>
+      Professionally, my focus lies in building AI-enhanced automation systems using Microsoft Power Platform and Azure AI,
+      as well as developing modern web applications that streamline workflows and boost productivity. Whether creating enterprise
+      copilots, integrating AI services, or implementing cloud-based testing frameworks, my goal is to make technology more reliable,
+      efficient, and human-centered.
+    </p>
+  </div>
+</section>
+
     </main>
   );
 }
