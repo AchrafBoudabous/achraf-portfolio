@@ -1,13 +1,21 @@
 import Navigation from '@/components/Navigation';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import '../styles/globals.css';
-import { Inter } from 'next/font/google';
+import { JetBrains_Mono, Syne } from 'next/font/google';
 
-// Snapshot once to avoid hydration edge cases
 const BUILD_YEAR = new Date().getUTCFullYear();
 
-const inter = Inter({
+const syne = Syne({
   subsets: ['latin'],
+  weight: ['500', '600', '700', '800'],
+  variable: '--font-syne',
+  display: 'swap',
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  variable: '--font-mono',
   display: 'swap',
 });
 
@@ -47,25 +55,25 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en" className={`${syne.variable} ${jetbrainsMono.variable}`}>
       <head>
         <link rel="icon" href="/favicon.ico" />
       </head>
-      {/* You can remove suppressHydrationWarning after confirming warnings are gone */}
       <body suppressHydrationWarning={true}>
         <ThemeProvider>
           <Navigation />
           {children}
-          <footer
-            style={{
-              textAlign: 'center',
-              padding: '2rem',
-              borderTop: '1px solid var(--border-color)',
-              marginTop: '4rem',
-              color: 'var(--text-secondary)',
-              background: 'var(--light-bg)',
-            }}
-          >
+          <footer style={{
+            textAlign: 'center',
+            padding: '1.5rem 2rem',
+            borderTop: '1px solid var(--border-color)',
+            marginTop: '4rem',
+            color: 'var(--text-muted)',
+            background: 'var(--bg-base)',
+            fontFamily: 'var(--font-mono)',
+            fontSize: '0.75rem',
+            letterSpacing: '0.05em',
+          }}>
             <p>© {BUILD_YEAR} Achraf Boudabous. All rights reserved.</p>
           </footer>
         </ThemeProvider>

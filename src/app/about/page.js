@@ -10,17 +10,24 @@ export const metadata = {
 export default function About() {
   return (
     <main className={styles.main}>
+
       {/* Hero */}
       <section className={styles.hero}>
+        <div className={styles.gridLines} aria-hidden />
         <div className={styles.container}>
+          <span className={styles.heroComment}>// about_me</span>
           <h1 className={styles.title}>{about.hero.title}</h1>
           <p className={styles.subtitle}>{about.hero.subtitle}</p>
         </div>
       </section>
 
       {/* Bio */}
-      <section className={styles.bioSection}>
+      <section className={styles.section}>
         <div className={styles.container}>
+          <div className={styles.sectionHeader}>
+            <span className={styles.comment}>// bio</span>
+            <h2 className={styles.sectionTitle}>Who I Am</h2>
+          </div>
           <div className={styles.bioContent}>
             {about.bio.map((p, i) => (
               <p key={i}>{p}</p>
@@ -30,20 +37,24 @@ export default function About() {
       </section>
 
       {/* Experience */}
-      <section className={styles.experienceSection}>
+      <section className={`${styles.section} ${styles.altSection}`}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Professional Experience</h2>
+          <div className={styles.sectionHeader}>
+            <span className={styles.comment}>// professional_experience</span>
+            <h2 className={styles.sectionTitle}>Experience</h2>
+          </div>
           <div className={styles.timeline}>
             {about.experience.map((item, idx) => (
               <div className={styles.timelineItem} key={`${item.role}-${idx}`}>
-                <div className={styles.timelineDot}></div>
+                <div className={styles.timelineDot} />
                 <div className={styles.timelineContent}>
                   <div className={styles.timelineHeader}>
                     <h3>{item.role}</h3>
                     <span className={styles.timelinePeriod}>{item.period}</span>
                   </div>
                   <p className={styles.institution}>
-                    {item.institution}, {item.location}
+                    {item.institution}
+                    <span className={styles.location}> · {item.location}</span>
                   </p>
                   <ul className={styles.responsibilities}>
                     {item.bullets.map((b, i) => (
@@ -58,13 +69,16 @@ export default function About() {
       </section>
 
       {/* Education */}
-      <section className={styles.educationSection}>
+      <section className={styles.section}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Education</h2>
+          <div className={styles.sectionHeader}>
+            <span className={styles.comment}>// education</span>
+            <h2 className={styles.sectionTitle}>Education</h2>
+          </div>
           <div className={styles.timeline}>
             {about.education.map((edu, idx) => (
               <div className={styles.timelineItem} key={`${edu.degree}-${idx}`}>
-                <div className={styles.timelineDot}></div>
+                <div className={`${styles.timelineDot} ${styles.timelineDotAlt}`} />
                 <div className={styles.timelineContent}>
                   <div className={styles.timelineHeader}>
                     <h3>{edu.degree}</h3>
@@ -80,9 +94,12 @@ export default function About() {
       </section>
 
       {/* Technical Skills */}
-      <section className={styles.skillsSection}>
+      <section className={`${styles.section} ${styles.altSection}`}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Technical Skills</h2>
+          <div className={styles.sectionHeader}>
+            <span className={styles.comment}>// technical_skills</span>
+            <h2 className={styles.sectionTitle}>Technical Skills</h2>
+          </div>
           <div className={styles.skillsGrid}>
             {about.skills.map((group, idx) => (
               <div className={styles.skillCategory} key={`${group.category}-${idx}`}>
@@ -99,13 +116,16 @@ export default function About() {
       </section>
 
       {/* Soft Skills */}
-      <section className={styles.softSkillsSection}>
+      <section className={styles.section}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Soft Skills</h2>
+          <div className={styles.sectionHeader}>
+            <span className={styles.comment}>// soft_skills</span>
+            <h2 className={styles.sectionTitle}>Soft Skills</h2>
+          </div>
           <div className={styles.softSkillsGrid}>
             {about.softSkills.map((s) => (
               <div className={styles.softSkill} key={s.label}>
-                <div className={styles.icon}>{s.icon}</div>
+                <span className={styles.softSkillIcon}>{s.icon}</span>
                 <h3>{s.label}</h3>
               </div>
             ))}
@@ -114,12 +134,16 @@ export default function About() {
       </section>
 
       {/* Certifications */}
-      <section className={styles.certificatesSection}>
+      <section className={`${styles.section} ${styles.altSection}`}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Certifications</h2>
+          <div className={styles.sectionHeader}>
+            <span className={styles.comment}>// certifications</span>
+            <h2 className={styles.sectionTitle}>Certifications</h2>
+          </div>
           <div className={styles.certificatesGrid}>
             {about.certifications.map((c) => (
               <div className={styles.certificate} key={c}>
+                <span className={styles.certAccent}>▹</span>
                 {c}
               </div>
             ))}
@@ -128,14 +152,17 @@ export default function About() {
       </section>
 
       {/* Languages */}
-      <section className={styles.languagesSection}>
+      <section className={styles.section}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Languages</h2>
+          <div className={styles.sectionHeader}>
+            <span className={styles.comment}>// languages</span>
+            <h2 className={styles.sectionTitle}>Languages</h2>
+          </div>
           <div className={styles.languagesGrid}>
             {about.languages.map((l) => (
               <div className={styles.language} key={l.name}>
                 <h3>{l.name}</h3>
-                <p>{l.level}</p>
+                <p className={styles.languageLevel}>{l.level}</p>
               </div>
             ))}
           </div>
@@ -143,14 +170,16 @@ export default function About() {
       </section>
 
       {/* Interests */}
-      <section className={styles.interestsSection}>
+      <section className={`${styles.section} ${styles.interestsSection}`}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Personal Interests</h2>
-          <div className={styles.interestsContent}>
-            <p>{about.interestsParagraph}</p>
+          <div className={styles.sectionHeader}>
+            <span className={styles.comment}>// personal_interests</span>
+            <h2 className={styles.sectionTitle}>Beyond the Code</h2>
           </div>
+          <p className={styles.interestsParagraph}>{about.interestsParagraph}</p>
         </div>
       </section>
+
     </main>
   );
 }

@@ -1,18 +1,8 @@
 import { notFound } from 'next/navigation';
 import styles from '../blog.module.css';
 import { blogPosts, getPostBySlug } from '../../../data/blogs';
-
-function formatDateUTC(isoDate) {
-  if (!isoDate) return '';
-  const MONTHS = [
-    'January','February','March','April','May','June',
-    'July','August','September','October','November','December'
-  ];
-  const [y, m, d] = isoDate.split('-').map(Number);
-  const dt = new Date(Date.UTC(y, (m || 1) - 1, d || 1));
-  if (Number.isNaN(dt.getTime())) return String(isoDate);
-  return `${MONTHS[dt.getUTCMonth()]} ${dt.getUTCDate()}, ${dt.getUTCFullYear()}`;
-}
+import { formatDateUTC } from '../../lib/formatDate';
+import Link from 'next/link';
 
 export function generateStaticParams() {
   return blogPosts.map((p) => ({ slug: p.slug }));
@@ -35,32 +25,56 @@ export default async function BlogPostPage({ params }) {
 
   return (
     <main className={styles.main}>
+
+      {/* Hero */}
       <section className={styles.hero}>
+        <div className={styles.gridLines} aria-hidden="true" />
         <div className={styles.container}>
+          <span className={styles.heroComment}>// blog_post</span>
           <h1 className={styles.title}>{post.title}</h1>
           <p className={styles.subtitle}>
-            <span>{post.category}</span> • <span>{formatDateUTC(post.date)}</span> •{' '}
-            <span>{post.readTime}</span>
+            <span className={styles.category}>{post.category}</span>
+            <span style={{ color: 'var(--text-muted)', margin: '0 0.5rem' }}>·</span>
+            <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.8rem', color: 'var(--text-muted)' }}>
+              {formatDateUTC(post.date)}
+            </span>
+            <span style={{ color: 'var(--text-muted)', margin: '0 0.5rem' }}>·</span>
+            <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.8rem', color: 'var(--text-muted)' }}>
+              {post.readTime}
+            </span>
           </p>
         </div>
       </section>
 
+      {/* Content */}
       <section className={styles.blogSection}>
-        <div className={styles.container}>
-          <article className={styles.blogCard}>
-            <div
-              className={styles.postBody}
-              dangerouslySetInnerHTML={{ __html: post.contentHtml }}
-            />
-          </article>
-
-          <div className={styles.cardFooter} style={{ marginTop: '1rem' }}>
-            <a className={styles.readMore} href="/blog">
+        <div className={styles.container} style={{ maxWidth: '720px' }}>
+          <article
+            className={styles.postBody}
+            dangerouslySetInnerHTML={{ __html: post.contentHtml }}
+          />
+          <div style={{ marginTop: '3rem', paddingTop: '1.5rem', borderTop: '1px solid var(--border-color)' }}>
+            <Link
+              href="/blog"
+              style={{
+                fontFamily: 'var(--font-mono)',
+                fontSize: '0.8rem',
+                color: 'var(--accent)',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '6px',
+                border: '1px solid var(--accent-border)',
+                padding: '6px 14px',
+                borderRadius: '4px',
+                transition: 'all 0.2s ease',
+              }}
+            >
               ← Back to Blog
-            </a>
+            </Link>
           </div>
         </div>
       </section>
+
     </main>
   );
 }
