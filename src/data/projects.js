@@ -85,7 +85,28 @@ export const projects = [
   demo: null,
   },
   {
-    id: 6,
+  id: 6,
+  title: "Karim Boudabous — Sports Coach Portfolio",
+  badge: "Personal Project",
+  description:
+    "Multilingual portfolio website for Karim Boudabous, a UEFA C certified football coach and Sports Scientist. Built with Next.js, Tailwind CSS, and Framer Motion, featuring internationalization (EN/FR/ES), a booking system with Nodemailer/Gmail SMTP, gallery, video showcases, and a floating booking button. Deployed to Vercel via GitHub.",
+  technologies: [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Framer Motion",
+    "next-intl",
+    "Nodemailer",
+    "i18n",
+    "Vercel",
+  ],
+  institution: "Personal Project",
+  year: "2025",
+  github: "https://github.com/AchrafBoudabous/karim-portfolio",
+  demo: null,
+  },
+  {
+    id: 7,
     title: "Time-Waster Detection Tool",
     badge: "Personal Project",
     description:
@@ -105,7 +126,7 @@ export const projects = [
     demo: null,
   },
   {
-    id: 7,
+    id: 8,
     title: "Fake News Detector",
     badge: "Personal Project",
     description:
@@ -125,7 +146,7 @@ export const projects = [
     demo: null,
   },
   {
-    id: 8,
+    id: 9,
     title: "Image Color Palette Extractor",
     badge: "Personal Project",
     description:
@@ -137,7 +158,7 @@ export const projects = [
     demo: null,
   },
   {
-    id: 9,
+    id: 10,
     title: "Football Field Booking System",
     badge: "Personal Project",
     description:
@@ -149,7 +170,7 @@ export const projects = [
     demo: null,
   },
   {
-    id: 10,
+    id: 11,
     title: "Expense Tracker Web App",
     badge: "Personal Project",
     description:
@@ -161,7 +182,7 @@ export const projects = [
     demo: null,
   },
   {
-    id: 11,
+    id: 12,
     title: "File Converter and Merger",
     badge: "Personal Project",
     description:
