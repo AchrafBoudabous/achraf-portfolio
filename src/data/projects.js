@@ -101,7 +101,7 @@ export const projects = [
     "Vercel",
   ],
   institution: "Personal Project",
-  year: "2025",
+  year: "2026",
   github: "https://github.com/AchrafBoudabous/karim-portfolio",
   demo: null,
   },
