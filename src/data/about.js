@@ -66,7 +66,7 @@ export const about = {
   education: [
     {
       degree: "Master of Science in Global Software Development",
-      period: "Oct 2023 - Present",
+      period: "Oct 2023 - Mar 2026",
       institution: "Fulda University of Applied Sciences, Fulda, Germany",
       description:
         "Masters Thesis: Development of a Quality Assurance framework for AI-based copilots and agents (Microsoft Copilot Studio and Azure AI), focusing on accuracy, robustness, security, and fairness.",
