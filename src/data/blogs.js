@@ -360,73 +360,85 @@ export const blogPosts = [
 {
   id: 6,
   slug: 'my-global-software-development-masters-experience',
-  title: 'Building Systems, Thinking Globally: My Experience in Global Software Development',
+  title: 'The Degree Is Done. This Is What I Actually Got From It.',
   excerpt:
     'A personal reflection on my Master’s journey at Hochschule Fulda, from distributed systems and machine learning to international collaboration, real-world experience, and a thesis on quality assurance for AI agents.',
   date: '2026-04-09',
   category: 'Education & Career',
   readTime: '8 min read',
   contentHtml: `
-    <p>In March 2026, I completed my Master of Science in Global Software Development at Hochschule Fulda. Looking back, this journey was not just about earning a degree. It was about learning how modern software systems are designed, how people collaborate across cultures and time zones, and how technical knowledge becomes much more valuable when it is applied to real problems.</p>
+  <p>I finished my Master's in March 2026. And honestly, my first reaction was not celebration. It was something closer to quiet relief mixed with a strange feeling of "wait, that's it?"</p>
 
-    <p>What first attracted me to this programme was its international and practice-oriented nature. It was taught entirely in English, which immediately created an environment that felt global and professional. The idea of studying software development in a setting that reflected the reality of the industry was something that really appealed to me. Today, software is rarely built in one room by one local team. It is created across borders, through distributed collaboration, shared tools, and constant communication. I wanted to be part of that kind of environment and prepare myself for that kind of career.</p>
+  <p>Two and a half years. A thesis. Countless late nights. A part-time job running alongside it. And then one day, it was done.</p>
 
-    <p>Another reason I chose this master’s was the strong focus on distributed software systems. The programme was clearly designed for students who wanted to go beyond basic software development and understand larger, more complex systems. I was interested in building scalable applications, learning modern technologies, and strengthening both my technical and professional skills. This programme offered exactly that combination.</p>
+  <p>Now that I have had some time to sit with it, I want to write about what this programme actually was, not the official version you read on a university website, but what it felt like from the inside.</p>
 
-    <h2>A programme that connected theory with practice</h2>
+  <h2>Why I chose this programme</h2>
 
-    <p>One of the things I appreciated most was how applied the learning experience was. The courses were not limited to theory. They pushed us to implement, analyse, test, and reflect. Over time, I could feel that I was no longer just learning isolated topics. I was building a broader mindset for software engineering.</p>
+  <p>When I was looking for a master's, I knew one thing clearly: I did not want to sit in a classroom and study theory for two years. I had already been working. I had already built things. What I wanted was a programme that would push my thinking further, not just add bullet points to my CV.</p>
 
-    <p>Courses such as Cloud Computing, Big Data and NoSQL Databases, Distributed Applications, and Machine Learning helped me understand how modern systems are built and operated. Cloud Computing gave me a strong foundation in scalability, deployment strategies, security, and cost-aware decision-making. Big Data and NoSQL Databases opened the door to architectures that go beyond traditional relational systems and introduced me to the Hadoop ecosystem in a practical way. Distributed Applications deepened my understanding of software architecture and the challenges that come with integrating services across systems.</p>
+  <p>Global Software Development at Hochschule Fulda caught my attention because it was entirely in English, which immediately felt right. It was international. It was applied. And it had a very specific focus on distributed systems and modern software at scale which is the kind of systems I was actually working with, or wanted to work with.</p>
 
-    <p>Other modules also added important dimensions to my learning. Programming Paradigms challenged the way I think about problem-solving by exposing me to different programming models and formal concepts. Building Web and Mobile Apps connected development with usability and modern application design. Test-Oriented Development was especially valuable because it reinforced the idea that software quality is not something added at the end, but something that must be built into the development process from the beginning.</p>
+  <p>I also liked that it was not trying to be everything. It had a clear identity. And that clarity was something I trusted.</p>
 
-    <p>I also appreciated the broader perspective of the programme. Modules such as Intercultural Communication and Academic Research, Intercultural Project Management, and User-Centered Development reminded me that good software is not only about technical correctness. It is also about people, context, collaboration, accessibility, and communication. That combination made the programme feel complete.</p>
+  <h2>The courses that actually changed how I think</h2>
 
-    <h2>The challenges that helped me grow</h2>
+  <p>Not every module hits equally. That is just the reality of any programme. But a few of them genuinely shifted something in how I approach problems.</p>
 
-    <p>Like any meaningful academic journey, this one came with challenges. Some subjects required a different way of thinking than what I had been used to before. Parallel Programming, for example, pushed me to think beyond sequential logic and consider performance, concurrency, and synchronization in a more structured way. Distributed systems also came with their own complexity. Once you begin dealing with multiple services, integration layers, and architectural trade-offs, you quickly understand that software design is as much about choosing the right structure as it is about writing code.</p>
+  <p>Cloud Computing was one of them. Before that course, I understood the concept of cloud infrastructure at a surface level. After it, I started thinking differently about trade-offs, cost, scalability, failure modes, security. I began asking "what happens when this breaks?" more than "how do I build this?" That shift matters more than I expected.</p>
 
-    <p>Another challenge was balancing study with practical work. During my master’s, I was also gaining industry experience, which made time management and prioritisation essential. At times, this was demanding, but it was also one of the most rewarding parts of the experience. It forced me to become more disciplined, more focused, and more aware of how academic concepts translate into professional reality.</p>
+  <p>Distributed Applications was another. Once you start thinking seriously about services talking to each other across networks, you realise that most of what makes software hard is not the code itself. It is the coordination. The architecture. The decisions you make before you write a single line.</p>
 
-    <p>In hindsight, these were the moments that created the most growth. The difficult modules, the demanding projects, and the responsibility of managing both study and work all helped me become more independent and more confident in my abilities.</p>
+  <p>Test-Oriented Development stuck with me too but not because it was technically the hardest module, but because it reframed how I think about quality. Testing is not a phase you do at the end. It is a way of thinking from the beginning. That sounds obvious when you say it, but it takes a while to actually feel it in practice.</p>
 
-    <h2>Connecting the classroom with the real world</h2>
+  <p>And then there were modules like Intercultural Project Management and User-Centered Development that some people might dismiss as "soft." I did not. Working across cultures is genuinely difficult. Communicating clearly to someone who thinks and works differently than you is a skill. I am glad the programme took it seriously.</p>
 
-    <p>A major strength of this journey was the way it connected naturally with my professional development. While studying, I was also working in a role focused on Python development, automation, and low-code solutions. This created a strong bridge between university and industry. Concepts from cloud computing, software architecture, testing, and machine learning were no longer just academic topics. I could see where they mattered in real projects and why they mattered.</p>
+  <h2>The part nobody warns you about</h2>
 
-    <p>At the same time, practical work gave deeper meaning to what I was learning in the programme. Building APIs, automation workflows, and scalable solutions made topics such as maintainability, modularity, testing, and system reliability feel much more concrete. Instead of seeing theory and practice as separate worlds, I began to experience them as two sides of the same process.</p>
+  <p>Doing a master's while working part-time is hard in a way that is difficult to describe until you are in it.</p>
 
-    <h2>A thesis on quality assurance for AI agents</h2>
+  <p>There were weeks where I was debugging a Power Automate flow at work, trying to understand a distributed systems paper in the evening, and drafting thesis sections on weekends. It was not glamorous. Some weeks I was just surviving.</p>
 
-    <p>The most defining part of my master’s was my thesis, titled <em>Development of a Quality Assurance framework for AI-based copilots and agents</em>. I chose this topic because it sits at the intersection of software engineering, artificial intelligence, and responsibility. As AI systems become more present in business environments, especially through tools such as Microsoft Copilot and Azure AI services, questions of trust, reliability, security, and fairness become impossible to ignore.</p>
+  <p>But I chose this approach deliberately. I wanted the theory and the practice to happen at the same time. And looking back, that decision was right even when it was exhausting. Concepts from the programme would show up directly in my work. Problems from work would suddenly make sense through something I had just studied. The two reinforced each other in ways that would not have happened if I had studied in isolation.</p>
 
-    <p>Traditional quality assurance approaches are not enough for these systems. AI agents can hallucinate, behave inconsistently, respond differently depending on context, and introduce bias in subtle ways. My goal was therefore to design a structured QA framework specifically for these kinds of systems. The framework was modular, scalable, and reusable, with components such as a test matrix, standardised test cases, a Python-based test manager, an evaluation engine, structured logging, and automated reporting.</p>
+  <p>I chose this approach because I wanted to build real understanding, not just academic knowledge. And I think it worked because I can look at something I built at work and trace a direct line back to something I learned in the programme.</p>
 
-    <p>One of the most interesting aspects of the thesis was working across two different environments. On the Azure AI side, I implemented a more automated approach using a FastAPI backend, Azure OpenAI integration, and automated evaluation pipelines. In Copilot Studio, however, technical limitations such as API constraints and authentication barriers made full automation difficult. This led to a hybrid model where structured test cases were generated automatically but then executed manually in Microsoft Teams before being fed back into the reporting system.</p>
+  <h2>The thesis</h2>
 
-    <p>The thesis showed me very clearly that systematic quality assurance for AI is not optional. It is necessary. It also showed that while we can already evaluate dimensions such as accuracy, robustness, security, and fairness in structured ways, there are still open challenges in areas such as semantic evaluation and platform-specific automation. That made the work feel both relevant and realistic.</p>
+  <p>This was the hardest and most meaningful part.</p>
 
-    <h2>Learning in an international environment</h2>
+  <p>I chose to write about quality assurance for AI-based copilots and agents. The reason was simple: I was working with these systems at WEPA Digital, and I kept running into the same problem. How do you actually test an AI agent? How do you know it is reliable? How do you measure fairness, robustness, security not just accuracy?</p>
 
-    <p>One of the most valuable parts of the programme was the international setting. Studying in English and collaborating with people from different cultural backgrounds gave the experience a global dimension that went far beyond technical learning. It improved the way I communicate, the way I collaborate, and the way I approach teamwork.</p>
+  <p>Traditional QA frameworks are built for deterministic systems. AI agents are not deterministic. They hallucinate. They behave differently depending on context. They can be manipulated. The standard approaches just do not cover this properly, and I found that gap genuinely interesting.</p>
 
-    <p>Working with people from different countries teaches you to listen more carefully, explain ideas more clearly, and adapt to different perspectives. These are not just soft skills that sound nice on paper. They are real professional skills that matter in modern software development, especially in distributed teams. The programme prepared me well for that reality.</p>
+  <p>So I built a framework. A proper one with a test matrix, standardised test cases, a Python-based test manager, an evaluation engine, structured logging, and automated reporting. I implemented it across two environments: Azure AI and Copilot Studio.</p>
 
-    <h2>What I take with me</h2>
+  <p>The Azure AI side worked well. FastAPI backend, Azure OpenAI integration, automated pipelines. Clean and testable.</p>
 
-    <p>When I think about what I gained from this master’s, I think of more than just individual courses or technical topics. Of course, I strengthened my knowledge in areas such as distributed systems, cloud computing, big data, machine learning, software architecture, and testing. But the bigger gain was the way I learned to think.</p>
+  <p>Copilot Studio was a different story. API constraints, authentication barriers, limited programmatic access, full automation was simply not possible. So I adapted. I built a hybrid model where test cases were generated and structured automatically, then executed manually in Microsoft Teams, with results fed back into the reporting system. Not ideal. But realistic. And I think that honesty about limitations made the thesis stronger, not weaker.</p>
 
-    <p>I became better at analysing complex problems, structuring solutions, and connecting technical decisions with practical consequences. I also became more confident in research, more aware of software quality, and more comfortable working in international and interdisciplinary contexts.</p>
+  <p>The conclusion I kept coming back to: systematic QA for AI is not optional. It is a necessity. We just do not have all the tools yet. That felt like an honest and important thing to say.</p>
 
-    <p>This programme helped me grow not only as a developer, but as an engineer who thinks more broadly about systems, users, and responsibility.</p>
+  <h2>What studying internationally actually meant</h2>
 
-    <h2>Final reflection</h2>
+  <p>I have lived in Tunisia, Bahrain, and Germany. So the international aspect of this programme was not new territory for me. But it still added something.</p>
 
-    <p>Completing this Master’s in Global Software Development was an important milestone for me. It gave me strong technical foundations, valuable international experience, and the chance to explore a topic that I believe will become even more important in the future: trustworthy AI.</p>
+  <p>When you work and study with people from genuinely different backgrounds, you start noticing how much of what you assume is universal is actually just familiar. The way you structure an argument. The way you give feedback. The way you handle disagreement. None of that is universal. And once you see it, you cannot unsee it.</p>
 
-    <p>More than anything, it helped me move from simply building software to understanding how to design, evaluate, and improve systems in a meaningful way. For that reason, I look back on this experience with real gratitude. It was challenging, rewarding, and deeply formative, and I am proud to have been part of it.</p>
-  `,
+  <p>This made me a better communicator. A more careful listener. Slightly more patient than I used to be.</p>
+
+  <h2>Looking back</h2>
+
+  <p>I am not going to pretend the master's was perfect. Some modules felt disconnected from what I was actually doing in the industry. Some deadlines were brutal for no obvious reason. There were moments where I genuinely questioned whether the effort was worth it.</p>
+
+  <p>But the overall arc? Yes. It was worth it.</p>
+
+  <p>Not because of the degree itself though that matters too. It was worth it because of the way it changed how I think. I approach problems differently now. I ask better questions. I am more comfortable with uncertainty and more disciplined about how I work through it.</p>
+
+  <p>I went in wanting to become a better software engineer. I came out thinking more like a systems engineer, someone who cares not just about whether something works, but about why it works, and what happens when it does not.</p>
+
+  <p>That shift is what I will carry forward.</p>
+`,
 },
 ];
 
