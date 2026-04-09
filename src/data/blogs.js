@@ -356,7 +356,78 @@ export const blogPosts = [
 
     <p>As artificial intelligence continues to expand into critical domains, quality assurance will define its legitimacy. A future where AI systems make autonomous decisions demands not only technical precision but moral clarity. Structured QA offers a pathway to both. It transforms AI from an opaque instrument of uncertainty into a transparent partner in human progress. The master’s thesis underlying this framework concludes with a simple yet powerful insight: the true measure of intelligence is not only what it can do, but how responsibly it can be trusted to do it.</p>
   `,
-}
+},
+{
+  id: 6,
+  slug: 'my-global-software-development-masters-experience',
+  title: 'Building Systems, Thinking Globally: My Experience in Global Software Development',
+  excerpt:
+    'A personal reflection on my Master’s journey at Hochschule Fulda, from distributed systems and machine learning to international collaboration, real-world experience, and a thesis on quality assurance for AI agents.',
+  date: '2026-04-09',
+  category: 'Education & Career',
+  readTime: '8 min read',
+  contentHtml: `
+    <p>In March 2026, I completed my Master of Science in Global Software Development at Hochschule Fulda. Looking back, this journey was not just about earning a degree. It was about learning how modern software systems are designed, how people collaborate across cultures and time zones, and how technical knowledge becomes much more valuable when it is applied to real problems.</p>
+
+    <p>What first attracted me to this programme was its international and practice-oriented nature. It was taught entirely in English, which immediately created an environment that felt global and professional. The idea of studying software development in a setting that reflected the reality of the industry was something that really appealed to me. Today, software is rarely built in one room by one local team. It is created across borders, through distributed collaboration, shared tools, and constant communication. I wanted to be part of that kind of environment and prepare myself for that kind of career.</p>
+
+    <p>Another reason I chose this master’s was the strong focus on distributed software systems. The programme was clearly designed for students who wanted to go beyond basic software development and understand larger, more complex systems. I was interested in building scalable applications, learning modern technologies, and strengthening both my technical and professional skills. This programme offered exactly that combination.</p>
+
+    <h2>A programme that connected theory with practice</h2>
+
+    <p>One of the things I appreciated most was how applied the learning experience was. The courses were not limited to theory. They pushed us to implement, analyse, test, and reflect. Over time, I could feel that I was no longer just learning isolated topics. I was building a broader mindset for software engineering.</p>
+
+    <p>Courses such as Cloud Computing, Big Data and NoSQL Databases, Distributed Applications, and Machine Learning helped me understand how modern systems are built and operated. Cloud Computing gave me a strong foundation in scalability, deployment strategies, security, and cost-aware decision-making. Big Data and NoSQL Databases opened the door to architectures that go beyond traditional relational systems and introduced me to the Hadoop ecosystem in a practical way. Distributed Applications deepened my understanding of software architecture and the challenges that come with integrating services across systems.</p>
+
+    <p>Other modules also added important dimensions to my learning. Programming Paradigms challenged the way I think about problem-solving by exposing me to different programming models and formal concepts. Building Web and Mobile Apps connected development with usability and modern application design. Test-Oriented Development was especially valuable because it reinforced the idea that software quality is not something added at the end, but something that must be built into the development process from the beginning.</p>
+
+    <p>I also appreciated the broader perspective of the programme. Modules such as Intercultural Communication and Academic Research, Intercultural Project Management, and User-Centered Development reminded me that good software is not only about technical correctness. It is also about people, context, collaboration, accessibility, and communication. That combination made the programme feel complete.</p>
+
+    <h2>The challenges that helped me grow</h2>
+
+    <p>Like any meaningful academic journey, this one came with challenges. Some subjects required a different way of thinking than what I had been used to before. Parallel Programming, for example, pushed me to think beyond sequential logic and consider performance, concurrency, and synchronization in a more structured way. Distributed systems also came with their own complexity. Once you begin dealing with multiple services, integration layers, and architectural trade-offs, you quickly understand that software design is as much about choosing the right structure as it is about writing code.</p>
+
+    <p>Another challenge was balancing study with practical work. During my master’s, I was also gaining industry experience, which made time management and prioritisation essential. At times, this was demanding, but it was also one of the most rewarding parts of the experience. It forced me to become more disciplined, more focused, and more aware of how academic concepts translate into professional reality.</p>
+
+    <p>In hindsight, these were the moments that created the most growth. The difficult modules, the demanding projects, and the responsibility of managing both study and work all helped me become more independent and more confident in my abilities.</p>
+
+    <h2>Connecting the classroom with the real world</h2>
+
+    <p>A major strength of this journey was the way it connected naturally with my professional development. While studying, I was also working in a role focused on Python development, automation, and low-code solutions. This created a strong bridge between university and industry. Concepts from cloud computing, software architecture, testing, and machine learning were no longer just academic topics. I could see where they mattered in real projects and why they mattered.</p>
+
+    <p>At the same time, practical work gave deeper meaning to what I was learning in the programme. Building APIs, automation workflows, and scalable solutions made topics such as maintainability, modularity, testing, and system reliability feel much more concrete. Instead of seeing theory and practice as separate worlds, I began to experience them as two sides of the same process.</p>
+
+    <h2>A thesis on quality assurance for AI agents</h2>
+
+    <p>The most defining part of my master’s was my thesis, titled <em>Development of a Quality Assurance framework for AI-based copilots and agents</em>. I chose this topic because it sits at the intersection of software engineering, artificial intelligence, and responsibility. As AI systems become more present in business environments, especially through tools such as Microsoft Copilot and Azure AI services, questions of trust, reliability, security, and fairness become impossible to ignore.</p>
+
+    <p>Traditional quality assurance approaches are not enough for these systems. AI agents can hallucinate, behave inconsistently, respond differently depending on context, and introduce bias in subtle ways. My goal was therefore to design a structured QA framework specifically for these kinds of systems. The framework was modular, scalable, and reusable, with components such as a test matrix, standardised test cases, a Python-based test manager, an evaluation engine, structured logging, and automated reporting.</p>
+
+    <p>One of the most interesting aspects of the thesis was working across two different environments. On the Azure AI side, I implemented a more automated approach using a FastAPI backend, Azure OpenAI integration, and automated evaluation pipelines. In Copilot Studio, however, technical limitations such as API constraints and authentication barriers made full automation difficult. This led to a hybrid model where structured test cases were generated automatically but then executed manually in Microsoft Teams before being fed back into the reporting system.</p>
+
+    <p>The thesis showed me very clearly that systematic quality assurance for AI is not optional. It is necessary. It also showed that while we can already evaluate dimensions such as accuracy, robustness, security, and fairness in structured ways, there are still open challenges in areas such as semantic evaluation and platform-specific automation. That made the work feel both relevant and realistic.</p>
+
+    <h2>Learning in an international environment</h2>
+
+    <p>One of the most valuable parts of the programme was the international setting. Studying in English and collaborating with people from different cultural backgrounds gave the experience a global dimension that went far beyond technical learning. It improved the way I communicate, the way I collaborate, and the way I approach teamwork.</p>
+
+    <p>Working with people from different countries teaches you to listen more carefully, explain ideas more clearly, and adapt to different perspectives. These are not just soft skills that sound nice on paper. They are real professional skills that matter in modern software development, especially in distributed teams. The programme prepared me well for that reality.</p>
+
+    <h2>What I take with me</h2>
+
+    <p>When I think about what I gained from this master’s, I think of more than just individual courses or technical topics. Of course, I strengthened my knowledge in areas such as distributed systems, cloud computing, big data, machine learning, software architecture, and testing. But the bigger gain was the way I learned to think.</p>
+
+    <p>I became better at analysing complex problems, structuring solutions, and connecting technical decisions with practical consequences. I also became more confident in research, more aware of software quality, and more comfortable working in international and interdisciplinary contexts.</p>
+
+    <p>This programme helped me grow not only as a developer, but as an engineer who thinks more broadly about systems, users, and responsibility.</p>
+
+    <h2>Final reflection</h2>
+
+    <p>Completing this Master’s in Global Software Development was an important milestone for me. It gave me strong technical foundations, valuable international experience, and the chance to explore a topic that I believe will become even more important in the future: trustworthy AI.</p>
+
+    <p>More than anything, it helped me move from simply building software to understanding how to design, evaluate, and improve systems in a meaningful way. For that reason, I look back on this experience with real gratitude. It was challenging, rewarding, and deeply formative, and I am proud to have been part of it.</p>
+  `,
+},
 ];
 
 export function getPostBySlug(slug) {

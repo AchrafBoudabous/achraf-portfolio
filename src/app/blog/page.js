@@ -35,7 +35,7 @@ export default function Blog() {
             </div>
           ) : (
             <div className={styles.blogGrid}>
-              {blogPosts.map((post) => (
+              {[...blogPosts].sort((a, b) => new Date(b.date) - new Date(a.date)).map((post) => (
                 <article key={post.id} className={styles.blogCard}>
                   <div className={styles.cardHeader}>
                     <span className={styles.category}>{post.category}</span>
