@@ -2,6 +2,7 @@ import Navigation from '@/components/Navigation';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import '../styles/globals.css';
 import { JetBrains_Mono, Syne } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/next';
 
 const BUILD_YEAR = new Date().getUTCFullYear();
 
@@ -77,6 +78,7 @@ export default function RootLayout({ children }) {
             <p>© {BUILD_YEAR} Achraf Boudabous. All rights reserved.</p>
           </footer>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
