@@ -106,8 +106,8 @@ export default function Home() {
           {/* Stats */}
           <div className={styles.statsRow}>
             {[
-              { num: '3+', label: 'yrs_experience' },
-              { num: '15+', label: 'projects' },
+              { num: '2+', label: 'yrs_experience' },
+              { num: '10+', label: 'projects' },
               { num: '10+', label: 'certifications' },
               { num: '3', label: 'countries' },
             ].map(({ num, label }) => (
@@ -129,9 +129,9 @@ export default function Home() {
           </div>
           <div className={styles.introContent}>
             <p>
-              I am a Tunisian software engineer based in Germany, currently pursuing a Master in Global Software Development
-              at Fulda University of Applied Sciences. My work bridges AI-driven automation, low-code development, and full-stack
-              engineering, combining technical depth with creativity to design intelligent, scalable, and user-centric solutions.
+              I am a Tunisian software engineer based in Germany. I recently completed my Master of Science in Global Software
+              Development at Fulda University of Applied Sciences. My work bridges AI-driven automation, low-code development,
+              and full-stack engineering, combining technical depth with creativity to design intelligent, scalable, and user-centric solutions.
             </p>
             <p>
               Having lived and worked across Tunisia, Bahrain, and Germany, I bring a global perspective to software development and
@@ -142,7 +142,7 @@ export default function Home() {
           <div className={styles.skillsPreview}>
             <span className={styles.sectionComment}>// core_stack</span>
             <div className={styles.skillTags}>
-              {['Python', 'TypeScript', 'Azure AI', 'Power Platform', 'Next.js', 'FastAPI', 'React', 'Docker', 'Copilot Studio', 'Vue 3'].map(tag => (
+              {['Python', 'JavaScript', 'Azure AI', 'Power Platform', 'Next.js', 'FastAPI', 'React', 'Docker', 'Copilot Studio', 'Vue 3'].map(tag => (
                 <span key={tag} className={styles.skillTag}>{tag}</span>
               ))}
             </div>
