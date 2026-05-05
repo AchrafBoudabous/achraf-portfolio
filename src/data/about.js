@@ -18,9 +18,9 @@ export const about = {
   institution: "WEPA Digital",
   location: "Düsseldorf, Germany",
   bullets: [
-    "Designed and implemented automation workflows using Power Automate, Power Apps, and SharePoint, improving efficiency across internal business processes.",
-    "Built and maintained REST APIs in Python to support internal applications, ensuring scalable architecture and reliable data processing.",
     "Designed and deployed end-to-end automation workflows using Power Automate, Power Apps, and SharePoint across multiple business processes, streamlining operations for 100+ employees and significantly reducing manual workload.",
+    "Built and maintained REST APIs in Python to support internal applications, ensuring scalable architecture and reliable data processing.",
+    "Developed web scraping and data processing pipelines using Power Automate Desktop, enabling automated data extraction and reporting workflows.",
     "Built and presented a QA framework for AI-based agents (Azure AI + Copilot Studio) that was partially adopted in production, covering accuracy, robustness, security, and fairness, and graded 1.0 (highest mark on the German academic scale) as part of my master's thesis.",
     "Managed GitHub repositories and CI/CD pipelines, enhancing code quality, dependency security, and deployment stability.",
     "Collaborated with cross-functional teams to deliver scalable cloud-based solutions leveraging Azure services and APIs.",
