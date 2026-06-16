@@ -66,47 +66,67 @@ export const projects = [
     demo: null,
   },
   {
-  id: 5,
-  title: "Automated Data Scraping Pipelines",
-  badge: "Work Project",
-  description:
-    "Built end-to-end data scraping pipelines using Power Automate Desktop (RPA) to extract information from dynamic and legacy web systems. Pipelines included browser automation, conditional scraping, data cleaning, scheduled runs, and automatic export to SharePoint and Excel files.",
-  technologies: [
-    "Power Automate Desktop",
-    "RPA",
-    "Web Automation",
-    "Data Scraping",
-    "Excel Automation",
-    "SharePoint Integration"
-  ],
-  institution: "Work Project",
-  year: "2024",
-  github: null,
-  demo: null,
+    id: 5,
+    title: "Automated Data Scraping Pipelines",
+    badge: "Work Project",
+    description:
+      "Built end-to-end data scraping pipelines using Power Automate Desktop (RPA) to extract information from dynamic and legacy web systems. Pipelines included browser automation, conditional scraping, data cleaning, scheduled runs, and automatic export to SharePoint and Excel files.",
+    technologies: [
+      "Power Automate Desktop",
+      "RPA",
+      "Web Automation",
+      "Data Scraping",
+      "Excel Automation",
+      "SharePoint Integration"
+    ],
+    institution: "Work Project",
+    year: "2024",
+    github: null,
+    demo: null,
   },
   {
-  id: 6,
-  title: "Karim Boudabous — Sports Coach Portfolio",
-  badge: "Personal Project",
-  description:
-    "Multilingual portfolio website for Karim Boudabous, a UEFA C certified football coach and Sports Scientist. Built with Next.js, Tailwind CSS, and Framer Motion, featuring internationalization (EN/FR/ES), a booking system with Nodemailer/Gmail SMTP, gallery, video showcases, and a floating booking button. Deployed to Vercel via GitHub.",
-  technologies: [
-    "Next.js",
-    "TypeScript",
-    "Tailwind CSS",
-    "Framer Motion",
-    "next-intl",
-    "Nodemailer",
-    "i18n",
-    "Vercel",
-  ],
-  institution: "Personal Project",
-  year: "2026",
-  github: "https://github.com/AchrafBoudabous/karim-portfolio",
-  demo: null,
+    id: 6,
+    title: "JobTracker",
+    badge: "Personal Project",
+    description:
+      "A personal job application tracker built with Next.js and Supabase. Track every application, interview round, and contact in one place — with status tracking (Saved, Applied, Interview, Offer, Rejected, Withdrawn), search/filter/sort, a dashboard with stats and charts (applications by month, rejection analysis, salary ranges), AI-powered cover letter generation and interview prep coach (via Groq), weekly email digests (via Resend), and full multi-user support with Row Level Security.",
+    technologies: [
+      "Next.js",
+      "Supabase",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "Groq",
+      "Resend",
+      "Recharts",
+    ],
+    institution: "Personal Project",
+    year: "2026",
+    github: "https://github.com/AchrafBoudabous/job-tracker",
+    demo: null,
   },
   {
     id: 7,
+    title: "Karim Boudabous — Sports Coach Portfolio",
+    badge: "Personal Project",
+    description:
+      "Multilingual portfolio website for Karim Boudabous, a UEFA C certified football coach and Sports Scientist. Built with Next.js, Tailwind CSS, and Framer Motion, featuring internationalization (EN/FR/ES), a booking system with Nodemailer/Gmail SMTP, gallery, video showcases, and a floating booking button. Deployed to Vercel via GitHub.",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "next-intl",
+      "Nodemailer",
+      "i18n",
+      "Vercel",
+    ],
+    institution: "Personal Project",
+    year: "2026",
+    github: "https://github.com/AchrafBoudabous/karim-portfolio",
+    demo: null,
+  },
+  {
+    id: 8,
     title: "Time-Waster Detection Tool",
     badge: "Personal Project",
     description:
@@ -126,7 +146,7 @@ export const projects = [
     demo: null,
   },
   {
-    id: 8,
+    id: 9,
     title: "Fake News Detector",
     badge: "Personal Project",
     description:
@@ -146,7 +166,7 @@ export const projects = [
     demo: null,
   },
   {
-    id: 9,
+    id: 10,
     title: "Image Color Palette Extractor",
     badge: "Personal Project",
     description:
@@ -158,7 +178,7 @@ export const projects = [
     demo: null,
   },
   {
-    id: 10,
+    id: 11,
     title: "Football Field Booking System",
     badge: "Personal Project",
     description:
@@ -170,7 +190,7 @@ export const projects = [
     demo: null,
   },
   {
-    id: 11,
+    id: 12,
     title: "Expense Tracker Web App",
     badge: "Personal Project",
     description:
@@ -182,7 +202,7 @@ export const projects = [
     demo: null,
   },
   {
-    id: 12,
+    id: 13,
     title: "File Converter and Merger",
     badge: "Personal Project",
     description:
