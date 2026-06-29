@@ -86,6 +86,29 @@ export const projects = [
   },
   {
     id: 6,
+    title: "FastAPI SQLModel Starter",
+    badge: "Personal Project",
+    description:
+      "A production-ready template for building REST APIs with FastAPI, SQLModel, and PostgreSQL. Ships with async endpoints, Alembic migrations, JWT access/refresh token auth, multi-stage Docker + docker-compose, a full pytest-asyncio + httpx test suite, GitHub Actions CI (lint → type-check → test in parallel), and ruff + pre-commit enforced code quality — clone it, rename the models, and ship.",
+    technologies: [
+      "FastAPI",
+      "SQLModel",
+      "PostgreSQL",
+      "Alembic",
+      "JWT",
+      "Docker",
+      "GitHub Actions",
+      "pytest",
+      "ruff",
+      "Python",
+    ],
+    institution: "Personal Project",
+    year: "2025",
+    github: "https://github.com/AchrafBoudabous/fastapi-sqlmodel-starter",
+    demo: null,
+  },
+  {
+    id: 7,
     title: "JobTracker",
     badge: "Personal Project",
     description:
@@ -105,7 +128,7 @@ export const projects = [
     demo: null,
   },
   {
-    id: 7,
+    id: 8,
     title: "Karim Boudabous — Sports Coach Portfolio",
     badge: "Personal Project",
     description:
@@ -126,7 +149,7 @@ export const projects = [
     demo: null,
   },
   {
-    id: 8,
+    id: 9,
     title: "Time-Waster Detection Tool",
     badge: "Personal Project",
     description:
@@ -146,7 +169,7 @@ export const projects = [
     demo: null,
   },
   {
-    id: 9,
+    id: 10,
     title: "Fake News Detector",
     badge: "Personal Project",
     description:
@@ -166,7 +189,7 @@ export const projects = [
     demo: null,
   },
   {
-    id: 10,
+    id: 11,
     title: "Image Color Palette Extractor",
     badge: "Personal Project",
     description:
@@ -178,7 +201,7 @@ export const projects = [
     demo: null,
   },
   {
-    id: 11,
+    id: 12,
     title: "Football Field Booking System",
     badge: "Personal Project",
     description:
@@ -190,7 +213,7 @@ export const projects = [
     demo: null,
   },
   {
-    id: 12,
+    id: 13,
     title: "Expense Tracker Web App",
     badge: "Personal Project",
     description:
@@ -202,7 +225,7 @@ export const projects = [
     demo: null,
   },
   {
-    id: 13,
+    id: 14,
     title: "File Converter and Merger",
     badge: "Personal Project",
     description:
